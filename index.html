@@ -6,136 +6,84 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+
   </head>
   <body>
-    <form id=quiz>
-      <p>What is the short form of HTML?</p>
-      <div>
-      <label>
-        <input type="radio" name="quiz1" value="30"/>
-        html
-      </label>
-      <label>
-        <input type="radio" name="quiz1" value="0"/>
-        hMML
-      </label>
-      <label>
-        <input type="radio" name="quiz1" value="0"/>
-        httl
-      </label>
-    </div>
-    <br>
-    <p>What is the short form of HTML?</p>
-    <div>
-    <label>
-      <input type="radio" name="quiz1" value="30"/>
-      html
-    </label>
-    <label>
-      <input type="radio" name="quiz1" value="0"/>
-      hMML
-    </label>
-    <label>
-      <input type="radio" name="quiz1" value="0"/>
-      httl
-    </label>
-  </div>
-  <br>
-  <p>What is the short form of HTML?</p>
-  <div>
-  <label>
-    <input type="radio" name="quiz1" value="30"/>
-    html
-  </label>
-  <label>
-    <input type="radio" name="quiz1" value="0"/>
-    hMML
-  </label>
-  <label>
-    <input type="radio" name="quiz1" value="0"/>
-    httl
-  </label>
-</div>
-    <button type="submit" class="button">submit</button>
-    <div id="display">
-    </form>
+    <div class="container">
+      <div id="content ">
 
-    </div>
-
-
-
-    <!-- <div class="container">
-    <h1>JavaScript Quiz Board</h1>
-    <p id="slogan">Test your Knowledge in JavaScript</p> -->
-    <!-- <form id="quiz-board">
-      <!-- qsn 1 -->
-      <!-- <div class="form-group">
-        <label for="qsn1">1. Inside which HTML element do we put the JavaScript?</label>
+      <h1>JavaScript Quiz Board</h1>
+      <p id="slogan">Test your Knowledge in JavaScript</p>
+      <form id="quiz-board">
+        <!-- qsn 1 -->
+        <div class="form-group">
+          <label for="qsn1">1. Inside which HTML element do we put the JavaScript?</label>
+          <div>
+          <input type="radio"  name="qsn1" value="0">
+          <label for="jsname">&lt;js&gt;</label>
+        </div>
         <div>
-        <input type="radio"  name="quiz1" value="0">
-        <label for="jsname">&lt;js&gt;</label>
+          <input type="radio"  name="qsn1" value="0">
+          <label for="scripting">&lt;scripting&gt;</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn1" value="10">
+          <label for="script">&lt;script&gt;</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn1" value="0">
+          <label for="javascript">&lt;javascript&gt;</label>
+        </div>
       </div>
-      <div> -->
-        <!-- <input type="radio"  name="quiz1" value="0">
-        <label for="scripting">&lt;scripting&gt;</label>
-      </div>
-      <div>
-        <input type="radio"  name="quiz1" value="10">
-        <label for="script">&lt;script&gt;</label>
-      </div>
-      <div>
-        <input type="radio"  name="quiz1" value="0">
-        <label for="javascript">&lt;javascript&gt;</label>
-      </div>
-    </div> -->
-    <!-- end of qsn 1 -->
-    <!-- qsn 2 -->
-    <!-- <div class="form-group">
-      <label for="qsn2">2. Which of the following is not considered a JavaScript operator?</label>
-      <div>
-        <input type="radio"  name="qsn2" value="0">
-        <label for="new">new</label>
-      </div>
-      <div>
-        <input type="radio"  name="qsn2" value="10">
-        <label for="this">this</label>
-      </div>
-      <div>
-        <input type="radio"  name="qsn2" value="0">
-        <label for="delete">delete</label>
-      </div>
-      <div>
-        <input type="radio"  name="qsn2" value="10">
-        <label for="typeof">typeof</label>
-      </div> -->
-    <!-- </div>  <!-- end of qsn 2 -->
-    <!-- qsn 3 -->
-    <!-- <div class="form-group">
-      <label for="qsn3">3. How do you write "Hello World" in an alert box?</label>
-      <div>
-        <input type="radio"  name="qsn3" value="0">
-        <label for="box">alertBox("Hello World")</label>
-      </div> -->
-      <!-- <div> -->
-        <!-- <input type="radio"  name="qsn3" value="0">
-        <label for="msg">msg("Hello World")</label>
-      </div>
-      <div>
-        <input type="radio"  name="qsn3" value="10">
-        <label for="alert">alert("Hello World")</label>
-      </div>
-      <div> --> -->
-        <!-- <input type="radio"  name="qsn3" value="0">
-        <label for="msgbox">msgBox("Hello World")</label>
-      </div>
-    </div>  <!-- end of qsn 3 --> -->
-    <!-- <button type="button" id="score" name="button">SCORE!</button>
-    <button type="button" name="button" onclick="reload();">RELOAD</button>
-    </form>
-  </div>
-  <div id="display"> -->
-
+      <!-- end of qsn 1 -->
+      <!-- qsn 2 -->
+      <div class="form-group">
+        <label for="qsn2">2. Which of the following is not considered a JavaScript operator?</label>
+        <div>
+          <input type="radio"  name="qsn2" value="0">
+          <label for="new">new</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn2" value="10">
+          <label for="this">this</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn2" value="0">
+          <label for="delete">delete</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn2" value="10">
+          <label for="typeof">typeof</label>
+        </div>
+      </div>  <!-- end of qsn 2 -->
+      <!-- qsn 3 -->
+      <div class="form-group">
+        <label for="qsn3">3. How do you write "Hello World" in an alert box?</label>
+        <div>
+          <input type="radio"  name="qsn3" value="0">
+          <label for="box">alertBox("Hello World")</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn3" value="0">
+          <label for="msg">msg("Hello World")</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn3" value="10">
+          <label for="alertmsg">alert("Hello World")</label>
+        </div>
+        <div>
+          <input type="radio"  name="qsn3" value="0">
+          <label for="msgbox">msgBox("Hello World")</label>
+        </div>
+      </div>  <!-- end of qsn 3 -->
+      <button type="submit" id="score" class="btn btn-success" >SCORE!</button>
+      <!-- <button type="button" name="button" onclick="reload();">RELOAD</button> -->
+      </form>
+      <button type="button" id="reload" name="button" class="btn btn-danger">Reload</button>
+    </div>
+    <div id="total">  </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    </div>
   </body>
 </html>
