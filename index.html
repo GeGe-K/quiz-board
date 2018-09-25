@@ -11,9 +11,11 @@
   <body>
     <div class="container">
       <div id="content ">
+        <div class="jumbotron">
+          <h1>JavaScript Quiz Board</h1>
+          <p id="slogan">Test your Knowledge in JavaScript</p>
 
-      <h1>JavaScript Quiz Board</h1>
-      <p id="slogan">Test your Knowledge in JavaScript</p>
+        </div>
       <form id="quiz-board">
         <!-- qsn 1 -->
         <div class="form-group">
@@ -76,12 +78,11 @@
           <label for="msgbox">msgBox("Hello World")</label>
         </div>
       </div>  <!-- end of qsn 3 -->
-      <button type="submit" id="score" class="btn btn-success" >SCORE!</button>
-      <!-- <button type="button" name="button" onclick="reload();">RELOAD</button> -->
+      <input type="submit" id="score" class="btn btn-success" value="SCORE" >
       </form>
-      <button type="button" id="reload" name="button" class="btn btn-danger">Reload</button>
     </div>
-    <div id="total">  </div>
+    <div id="total"></div>
+    <button type="button" id="reload" name="button" class="btn btn-danger">Reload</button>
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     </div>
