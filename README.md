@@ -14,21 +14,11 @@ https://gege-k.github.io/quiz-board/
 6. [License](#license)
 ## Specificatios
 The board awards 10 marks t0 every question gotten right.
-###Input:  Which link do we start with when linking bootstrap to the HTML page?
-Correct answer:bootstrap link
-###Output : true
-Input: Which of the following is not a loop?
-Correct answer:HTML
-Output: true
-Input : What is Javascript ?
-Correct answer:programming language
-Output :true
-input :  Why do we prefer to use dry code in our work when coming up with application?
-Correct answer:To avoid repetition of codes and elements
-output: true
-input: What is a method as used in Javascript ?
-Correct answer: Is an action
-output: true
+#### Input:  null
+####  Output : Your total is NaN
+The board awards 30 marks for all questions gotten right
+#### Input: All radio buttons checked correct
+#### Output: Your total score is 30
 ## Installation
 ### Installation Requirements
   git
